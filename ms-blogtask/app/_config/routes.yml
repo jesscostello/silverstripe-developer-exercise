@@ -1,0 +1,6 @@
+---
+After: framework/_config/routes#coreroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'posts/$Post': 'MSTask\Blog\Controllers\PostsController'

@@ -4,7 +4,7 @@ namespace {
 
     use SilverStripe\CMS\Controllers\ContentController;
 
-    class PageController extends ContentController
+class PageController extends ContentController
     {
         /**
          * An array of actions that can be accessed via a request. Each array element should be an action name, and the
